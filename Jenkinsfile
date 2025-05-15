@@ -5,6 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo 'Sadhika Deva - SE22UCSE230'
                 echo 'Building from Jenkinsfile in Git...'
                 sh 'echo Build stage complete!'
             }
